@@ -1,0 +1,25 @@
+#completecontent{
+    border: 3px solid hsl(0, 0%, 40%);
+    background-color: hsl(0, 0%, 30%);
+    box-shadow: 3px 3px 8px hsl(0, 0%, 25%);
+    border-radius: 10px;
+    margin: 2em;
+    padding: 2em;
+}
+#completecontent h2{
+    color: hsl(39, 77%, 40%);
+}
+.subcontent{
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+}
+.subcontent img{
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid hsl(189, 100%, 36%);
+    box-shadow: 3px 3px 8px hsl(189, 100%, 10%);
+}
+.subcontent p{
+    color: hsl(39, 77%, 60%);
+}
