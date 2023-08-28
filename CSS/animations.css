@@ -1,0 +1,35 @@
+@keyframes grow {
+    0%{transform: scale(0.1,0.1);}
+    75%{transform: scale(1.2,1.2);}
+    100%{transform: scale(1,1);}
+}
+@keyframes slideleft {
+    from{transform: translateX(200%);}
+}
+@keyframes fadein {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
+@keyframes flip {
+    0%{transform: rotateY(90deg);}
+    100%{transform: rotateY(0deg);}
+    
+}
+.grossingmovies img{
+    animation-name: grow;
+    animation-duration: 2s;
+}
+.grossingmovies p{
+    animation-name: fadein;
+    animation-duration: 5s;
+}
+.grossingmovies h3{
+    animation-name: fadein;
+    animation-duration: 2s;
+}
+.founders img{
+    animation-name: flip;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
