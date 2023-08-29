@@ -28,3 +28,9 @@
 .subcontent p{
     color: hsl(39, 77%, 60%);
 }
+@media screen and (max-width:1000px) {
+    .subcontent{
+        flex-wrap: wrap;
+    }
+    
+}

@@ -1,0 +1,46 @@
+#completecontent{
+    background-color: hsl(0, 0%, 20%);
+    border: 3px solid hsl(0, 0%, 30%);
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px hsl(0, 0%, 30%);
+    margin: 1em;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+}
+.allfilms{
+    display: flex;
+    flex-wrap: wrap;
+}
+#completecontent h1{
+    color: hsl(39, 77%, 50%);
+} 
+.filmblock{
+    background-color: hsl(0, 0%,10%);
+    box-shadow: 2px 2px 5px hsl(0, 0%, 40%);
+    border-radius: 20px;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    margin: 0.5em;
+    width: 25%;
+    align-items: center;
+}
+.filmblock img{
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px hsl(0, 0%, 30%);
+}
+.filmblock a{
+    color: hsl(39, 77%, 75%);
+    text-decoration: none;
+}
+@media screen and (max-width:600px) {
+    .filmblock{
+        width: 75%;
+    }
+    
+}
